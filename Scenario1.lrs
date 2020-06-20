@@ -36,6 +36,12 @@ PlannedNumOfVusers=1
 PrivatePlannedNumOfVusers=0
 ManualControlDistributionType=-1
 ManualControlAutoAddVusers=1
+Tranzactions=3
+Vusers=1
+Groups=1
+Rendezvous=0
+Scripts=1
+Hosts=1
 TestDirPath=
 TestDirServer=
 TestDirDatabase=
@@ -50,7 +56,7 @@ ScenarioStartAtTime=70130
 ScenarioStartAtTimeYear=2020
 ScenarioStartAtTimeMonth=6
 ScenarioStartAtTimeDay=20
-GIndexSortType=32244002423140
+GIndexSortType=13344223434042
 GIndexAutoSort=0
 SoftKillMode=0
 }
@@ -189,19 +195,19 @@ HostSettingsEnableTerminal=0
 
 {problema_1_1_1_1_1_1_1_1
 UiName=problema_1_1_1_1_1_1_1_1
-Type=6
-SubType=
+Type=1
+SubType=Multi+QTWeb
 ScriptType=10
-Path=D:\Jenkins_Scenario\CTHackATAohn2020\ProblemA
+Path=D:\Jenkins_Scenario\CTHackATAohn2020\ProblemA\ProblemA.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=
-ConfigUsp=
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="en-US"\r\nUTF8InputOutput="No"\r\nNavigatorUserLanguage="en-US"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1252"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="1"\r\nSearchForImages="1"\r\nProxyUseProxyServer="1"\r\nHttpVer="1.1"\r\nProxyUseProxy="1"\r\nAnalogMode="0"\r\nStartRecordingGMT="2020/06/20 11:25:27"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage=""\r\nProxyUseSame="1"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="en-US,en;q=0.9"\r\nProxyHTTPSHost="genproxy.amdocs.com"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost="genproxy.amdocs.com"\r\nNavigatorSystemLanguage="en-US"\r\nEnableChecks="0"\r\nProxyHTTPPort="8080"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="8080"\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="0"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic="usprne.481"\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="NOTHINK"\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
 TDDatabase=
-Platform=Unknown
+Platform=All
 AstraSubType=0
 }
 }
@@ -676,7 +682,7 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
 Is_On_Panel=1
 SampleRate=5
@@ -693,7 +699,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=8
+MeasurementCount=7
 Measurement_0=|||0|||0|||1|||Not_In_Use|||0|||-1|||
 MeasurementFullPath_0=Running
 Measurement_1=|||3|||0|||1|||Not_In_Use|||0|||-1|||
@@ -708,8 +714,6 @@ Measurement_5=|||13|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
 MeasurementFullPath_5=Error
 Measurement_6=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
 MeasurementFullPath_6=Finished
-Measurement_7=|||13|||0|||1|||Not_In_Use|||0|||-1|||
-MeasurementFullPath_7=Error
 Description=Displays the number of Vusers that executed Vuser scripts, and their status, during each second of a load test. This graph is useful for determining the Vuser load on your server at any given moment.
 [11]
 MeasurementsDelimiter=|||
@@ -787,9 +791,11 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
+MeasurementCount=2
 Measurement_0=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_0=problema:Action:19
+MeasurementFullPath_0=problema_1_1_1_1_1_1_1_1:Action:19
+Measurement_1=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_1=problema:Action:19
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [13]
 MeasurementsDelimiter=|||
@@ -828,9 +834,11 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
+MeasurementCount=2
 Measurement_0=|||12|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_0=problema:Action:19
+Measurement_1=|||12|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_1=problema_1_1_1_1_1_1_1_1:Action:19
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
 [14]
 MeasurementsDelimiter=|||
@@ -4983,7 +4991,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="5eee17cfe" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="5eee1a82e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -5066,7 +5074,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
 }
 
 {ScenarioSLAConfig
-<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>vuser_end_Transaction</Tx><Tx>vuser_init_Transaction</Tx><Tx>Action_Transaction</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>
+<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>vuser_end_Transaction</Tx><Tx>vuser_init_Transaction</Tx><Tx>Action_Transaction</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale><RulesGroup Type="PercentileRule"><Name>Percentile Based Rules</Name><PercentileRule Name="transaction_response_time_percentile_Action_Transaction"><Percentage>90</Percentage><Value>500</Value><Measurement>transaction_response_time_percentile</Measurement><SubMeasurement>Action_Transaction</SubMeasurement></PercentileRule></RulesGroup></SLARules></SLA>
 }
 
 {ScenarioSEVConfig
