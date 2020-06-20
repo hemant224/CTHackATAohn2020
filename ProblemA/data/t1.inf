@@ -1,0 +1,13 @@
+[t1]
+FileName1=t1_users.html
+URL1=http://35.188.114.237:8088/api/v2/users
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t1_ResponseHeader.txt
+FileName2=t1_favicon.ico
+URL2=http://35.188.114.237:8088/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

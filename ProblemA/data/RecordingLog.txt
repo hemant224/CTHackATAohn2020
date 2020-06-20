@@ -1,0 +1,221 @@
+[API Trapper      (83adc:828e8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (83330:8323c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (7bea0:81004)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (83ab8:83774)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (83ab8:831e8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (83ab8:831e8)] Load Network Traffic Analyzers:
+[Network Analyzer (83ab8:831e8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (83ab8:831e8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (83ab8:831e8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (83ab8:831e8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (83ab8:831e8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (83ab8:831e8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (83ab8:831e8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (83ab8:831e8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (83ab8:83b18)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 57635  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Web Request      (83ab8:83b18)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  1) Client -> Server @ : 252 bytes (Service=HTTP)
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (83ab8:83b18)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  3) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  1) Server -> Client : 146 bytes 
+[Network Analyzer (83ab8:83b18)]   (Sid:  3) Server -> Client : 146 bytes 
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Web Request      (83ab8:83b18)] "HEAD http://pfspymoriyjlgcf/"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  4) Client -> Server @ : 253 bytes (Service=HTTP)
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (83ab8:83b18)] "HEAD http://axueavn/"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  5) Client -> Server @ : 237 bytes (Service=HTTP)
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Web Request      (83ab8:83b18)] "HEAD http://nafgnghif/"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  6) Client -> Server @ : 241 bytes (Service=HTTP)
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (83ab8:83b18)] "GET http://35.188.114.237:8088/api/v2/users"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  7) Client -> Server @ : 469 bytes (Service=HTTP)
+[Web Request      (83ab8:83430)] "GET /LsiHelperUpdates.xml?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=81.0.4044.92&lang=en-US&acceptformat=crx3&x=id%3Dbbdgnhjlleclbkbgbfanhgdoejjocdkf%26v%3D0.0.0.0%26installsource%3Dnotfromwebstore%26installedby%3Dpolicy%26uc"   
+[Network Analyzer (83ab8:83430)]   (Sid:  2) Client -> Server @ : 597 bytes (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  5) Server -> Client : 224 bytes  (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (83ab8:83b18)]   (Sid:  4) Server -> Client : 224 bytes  (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (83ab8:83b18)]   (Sid:  6) Server -> Client : 224 bytes  (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (83ab8:83b18)]   (Sid:  7) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  7) Server -> Client : 5654 bytes  (Service=HTTP)
+[Web Request      (83ab8:83b18)] "GET http://35.188.114.237:8088/favicon.ico"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  7) Client -> Server @ : 403 bytes (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  7) Server -> Client : 1219 bytes  (Service=HTTP)
+[Network Analyzer (83ab8:8353c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (83ab8:83944)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (83ab8:83944)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (83ab8:8353c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Web Request      (83ab8:83b18)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=81"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  1) Client -> Server @ : 447 bytes (SSL)(Service=HTTP)
+[Web Request      (83ab8:83b18)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  3) Client -> Server @ : 494 bytes (SSL)(Service=HTTP)
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (83ab8:83b18)] "CONNECT ssl.gstatic.com:443"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Client -> Server @ : 224 bytes (Service=HTTP)
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 146 bytes 
+[Web Request      (83ab8:83b18)] "CONNECT ssl.gstatic.com:443"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Client -> Server @ : 224 bytes (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 146 bytes 
+[Network Analyzer (83ab8:83b18)]   (Sid:  3) Server -> Client : 1317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  3) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83458)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (83ab8:83458)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (83ab8:83b18)]   (Sid:  1) Server -> Client : 504 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  1) Connection Terminated (by Server)
+[Web Request      (83ab8:83b18)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Client -> Server @ : 349 bytes (SSL)(Service=HTTP)
+[Network Analyzer (83ab8:8350c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (83ab8:8350c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Web Request      (83ab8:83b18)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Client -> Server @ : 345 bytes (SSL)(Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 756 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 104 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  8) Server -> Client : 163 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 756 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 104 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  9) Server -> Client : 163 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:831e8)] Address lookup for INPNQJCOM01 = 10.75.225.171
+[Network Analyzer (83ab8:831e8)] Request Connection: Remote Server @ 10.19.50.20:8080   (Service=)  (Sid= 10)  PROXIED!
+[API Trapper      (83164:837f0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Web Request      (83ab8:83b18)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (83ab8:83b18)]   (Sid: 10) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid: 10) Server -> Client : 146 bytes 
+[Network Analyzer (83ab8:83a18)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (83ab8:83a18)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (83ab8:83b18)]   (Sid: 10) Client -> Server @ : 905 bytes (SSL)(Service=HTTP)
+[Web Request      (83ab8:83b18)] "POST /service/update2/json?cup2key=9:210206860&cup2hreq=a93d04d9600ff47e3d4a628cc105d1e8be8ca448d3162cb277bb39b4cd0fdceb"   
+[Network Analyzer (83ab8:83b18)]   (Sid: 10) Client -> Server @ : 3214 bytes (SSL)(Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid: 10) Server -> Client : 1441 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid: 10) Server -> Client : 15 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid: 10) Server -> Client : 356 bytes (SSL) (Service=HTTP)
+[Network Analyzer (83ab8:83b18)]   (Sid:  7) Connection Terminated (by Server)

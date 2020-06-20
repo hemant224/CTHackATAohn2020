@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+Cache-Control: no-cache, no-store, max-age=0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Language: en-US
+Date: Sat, 20 Jun 2020 11:25:42 GMT
+Content-Length: 8216
+Age: 1
+Proxy-Connection: keep-alive
+Via: 1.1 indproxy4-wcg.corp.amdocs.com
+

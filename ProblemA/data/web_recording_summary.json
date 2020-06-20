@@ -1,0 +1,316 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": true
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 9,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Jun-20-2020",
+    "RecordingDuration": 17875,
+    "RecordingTimeStamp": 1592652327,
+    "TotalBytesReceived": 165474,
+    "TotalBytesSent": 7357,
+    "TotalRequests": 10
+  },
+  "HostInfo": [
+    {
+      "DomainName": "pfspymoriyjlgcf",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "pfspymoriyjlgcf",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 30,
+              "HttpStatus": 504,
+              "Size": 0,
+              "URL": "http://pfspymoriyjlgcf/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "nafgnghif",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "nafgnghif",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 281,
+              "EventId": 33,
+              "HttpStatus": 504,
+              "Size": 0,
+              "URL": "http://nafgnghif/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 109,
+              "EventId": 127,
+              "HttpStatus": 200,
+              "Size": 77948,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 188,
+              "EventId": 66,
+              "HttpStatus": 200,
+              "Size": 77948,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 391,
+              "EventId": 194,
+              "HttpStatus": 200,
+              "Size": 371,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=9:210206860&cup2hreq=a93d04d9600ff47e3d4a628cc105d1e8be8ca448d3162cb277bb39b4cd0fdceb"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 61,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=81"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 187,
+              "EventId": 55,
+              "HttpStatus": 200,
+              "Size": 45,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "axueavn",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "axueavn",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 27,
+              "HttpStatus": 504,
+              "Size": 0,
+              "URL": "http://axueavn/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "35.188.114.237",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.188.114.237",
+          "IncludeInScript": true,
+          "Name": "35.188.114.237",
+          "Port": 8088,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 62,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://35.188.114.237:8088/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 657,
+              "EventId": 36,
+              "HttpStatus": 200,
+              "Size": 8216,
+              "URL": "http://35.188.114.237:8088/api/v2/users"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

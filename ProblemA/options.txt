@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\gleeshaa\Documents\VuGen\Scripts\CTHackATAohn2020\ProblemA
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\gleeshaa\documents\vugen\scripts\cthackataohn2020\problema\\logfile.log
+c:\users\gleeshaa\documents\vugen\scripts\cthackataohn2020\problema\\combined_ProblemA.c
+c:\users\gleeshaa\documents\vugen\scripts\cthackataohn2020\problema\\pre_cci.c
